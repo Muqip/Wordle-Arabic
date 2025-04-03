@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>لعبة Wordle العربية</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>لعبة Wordle العربية</h1>
+    <div id="game-board"></div>
+    <input type="text" id="guess-input" maxlength="5" placeholder="أدخل كلمة من 5 حروف">
+    <button onclick="submitGuess()">إرسال</button>
+    <p id="message"></p>
+    <script src="script.js"></script>
+</body>
+</html>

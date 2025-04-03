@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    direction: rtl;
+}
+
+#game-board {
+    display: grid;
+    grid-template-columns: repeat(5, 50px);
+    gap: 5px;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.letter-box {
+    width: 50px;
+    height: 50px;
+    border: 2px solid #000;
+    font-size: 24px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.correct {
+    background-color: green;
+    color: white;
+}
+
+.present {
+    background-color: gold;
+    color: white;
+}
+
+.absent {
+    background-color: gray;
+    color: white;
+}
